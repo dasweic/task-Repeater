@@ -19,7 +19,7 @@ Mouse clicks
 Keyboard events
 Timing between actions
 
-#Limitations
+Limitations
 
 This project is coordinate-based and may fail if:
 
@@ -27,6 +27,11 @@ Screen resolution changes
 Window positions change
 UI layouts are modified
 Website/application updates alter element locations
+
+Use:
+run skeleton_formation.py   #it will starts tracking your mouse and keyboard
+press 'esc' to stop recording task.
+run main.py    #this will repeat the same task automatically
 
 Future improvements may include computer vision-based element detection for more robust automation.
 
